@@ -1,0 +1,19 @@
+{
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "boot": "docker run -d 27017:27017 -v ~/data:/data/db mongo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.13.7",
+    "yargs": "^17.1.0"
+  }
+}
+
